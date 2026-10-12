@@ -1,4 +1,5 @@
 amount = float(input("Enter the amount: "))
-after_vat = amount * 23/100
+vat = round(amount * 23/100, 2)
 
-print(f"")
+print(f"Amount  : {amount}")
+print(f"VAT 23% : {vat}")
